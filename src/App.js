@@ -87,7 +87,7 @@ const App = () => {
           <h2><FontAwesomeIcon icon={faWifi} /> WI-FI</h2>
           <div className="align">
             <div className="wifi">
-            <p>Status&nbsp;: <span className={wifiStatus.className}>{wifiStatus.text}</span></p>
+            <p>Status: <span className={wifiStatus.className}>{wifiStatus.text}</span></p>
               <p>&nbsp;IP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span className={wifiStatus.className}>{wifiStatus.text}</span></p>
               <p>&nbsp;SSID&nbsp;&nbsp;: <span className={wifiStatus.className}>{wifiStatus.text}</span></p>
             </div>
